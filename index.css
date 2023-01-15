@@ -1,0 +1,282 @@
+
+.grid-container {
+    display:grid;
+    grid-template-columns: 50% auto;
+}
+
+.icon {
+    color: #e6ff02;
+    margin-right: 20px;
+}
+
+.grid-container .item1 {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    margin:auto;
+    margin-left: 10%;
+}
+
+.grid-container .item2 {
+    display: flex;
+    margin:5%;
+}
+.intro, .phrase {
+    padding-top: 40px;
+    font-family: 'Josefin Slab', serif;
+    font-size: 2rem;
+}
+
+
+.name, .magic {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 3rem;
+    
+}
+
+#human {
+    position: absolute;
+}
+
+  
+.grid-container .item3 {
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    align-items: center;
+    margin:auto;
+}
+
+.resume {
+    text-align: right;
+    font-size: 40px;
+    margin-right: 17%;
+}
+
+.phrase {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 900px;
+}
+
+span {
+    font-size: 40px;
+}
+
+.letter {
+    font-family: 'Monoton', cursive;
+}
+.alive {
+    
+    text-shadow: 0px 0px 20px rgb(242, 255, 3);
+   
+}
+
+.char1 {
+   color: #6C63FF; 
+   margin-right:-5px;
+   
+}
+
+.char2 {
+    color: #6C63FF; 
+    font-size: 50px;
+ }
+
+.char3 {
+    color: #6C63FF; 
+    margin-left: -5px;
+    font-size: 60px;
+ }
+
+.char4 {
+    color: black;
+    font-size: 50px;
+    margin-left: -5px;
+    text-shadow: 0px 0px 20px rgb(242, 255, 3);
+
+}
+
+.char5 {
+    color: #6C63FF; 
+    margin-left: -5px;
+}
+
+.char6 {
+    color: #FF6388;
+    font-size: 60px;
+}
+
+.char7 {
+    color: #ad6103; 
+    font-size: 50px;
+}
+
+.char8 {
+    color: #d6cb01;
+}
+
+.char9 {
+    color:  #00d67d;
+    font-size: 50px;
+}
+
+.char10 {
+    color: #6C63FF;
+    font-size: 60px;
+}
+
+.schoolfield , .title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    
+}
+.scroll {
+    text-align: right;
+    font-size: 14px;
+}
+.time {
+    font-size: small;
+}
+
+.employer , .school {
+    font-style:italic;
+    margin-bottom: -3px;
+    
+}
+
+/* Container1 */
+.grid-container1 {
+    display:grid;
+    grid-template-columns: 30% auto;
+    margin: auto;
+    height: 1600px;
+    min-width: 800px;
+}
+
+
+.grid-container1 .tabcontent {
+    margin-left: 20px;
+    width: 80%;
+    min-width: 700px;
+}
+
+.tab .tablinks { 
+    all:unset;
+    width: 10rem;
+    height: 2em;
+    outline: solid black 2px;
+    text-align: center;
+    padding: 3px;
+    margin: 10px;
+    cursor:pointer;
+    background-color:rgb(235, 165, 175);
+
+}
+.tab .tablinks:hover {
+    background-color:azure;
+}
+
+.tab .tablinks:active {
+    background-color:azure;
+}
+.tab .tablinks:focus {
+    background-color:azure;
+}
+
+.tab {
+    margin-top: 150px;  
+    justify-self: right;
+    margin-right: 30px;
+    
+}
+
+.skillgrid .fa-solid , .edugrid .fa-solid{
+    font-size: 1.5rem;
+}
+
+.skillgrid {
+    display:grid;
+    grid-template-columns: 25% 25% 25% auto;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.workfield {
+    font-size: 20px;
+    font-weight:bold;
+    margin-top: -10px;
+}
+
+
+.edu {
+    margin-bottom:40px;
+}
+.othergrid{
+    display:grid;
+    grid-template-columns: 50% auto;
+}
+
+.projectname {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.projectitem {
+    margin-bottom: 30px;
+}
+
+/* Container2 */
+
+.grid-container2 {
+    display:grid;
+    grid-template-columns: 40% auto;
+    height:720px;
+}
+
+
+.grid-container2 .item2 {
+    display:flex;
+    padding:30px;
+    align-self: center;
+    height: 400px;
+    min-width:800px;
+    padding-left: 10%;
+    background-color: rgba(240, 248, 255, 0.338);
+}
+
+img {
+    width:auto;
+  max-height: 720px;
+  opacity: 0;
+}
+
+/* #FF6388
+#3F3D56
+#D583CD
+#6C63FF */
+
+
+.grid-container2 span {
+    color:rgb(38, 61, 119);
+    font-size: 16px;
+}
+
+#namecard {
+    opacity:0;
+    z-index: 1;
+}
+  
+/* #FF6388
+#3F3D56
+#D583CD
+#6C63FF */
+
+
+/* webgame css */
+
+/* resume */
+
+
+  
